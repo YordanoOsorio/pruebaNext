@@ -1,0 +1,30 @@
+{
+    "oauth2Config": {
+        "clientId": "zLwChZmxhxIfUb1blzCf2GH0mo9kYPve4Yy9LbJOdhwNQylaX2RTRw9SWINp8sun",
+        "clientSecret": "V1RCSzxNJteknRZ6Ib8Ig7UhtHlP73zXdyISqB4KSrCXxuNmsYbnSscEmBFWnOcn",
+        "accessTokenUri": "http://192.53.162.24/nextcloud/nextcloud/index.php/apps/oauth2/api/v1/token",
+        "authorizationUri": "http://192.53.162.24/nextcloud/nextcloud/index.php/apps/oauth2/authorize",
+        "redirectUri": "http://192.53.162.24/nextcloud/nextcloud/auth/nextcloud/grant",
+        "scopes": []
+    },
+    "cookieOptions": {
+        "path": "/nodejs/auth/nextcloud/grant"
+    },
+    "path": {
+        "link": "/auth/nextcloud",
+        "unlink": "/auth/nextcloud/unlink",
+        "redirect": "/auth/nextcloud/grant"
+    },
+    "cookieOptionValues": {
+        "domain": "nextcloudConfig.cookieData.domain",
+        "encode": "function to encode cookie values",
+        "path": "nextcloudConfig.cookieData.path",
+        "httpOnly": true,
+        "secure": false,
+        "maxAge": 600000,
+        "expires": "Date.now() + 600000",
+        "signed": false,
+        "sameSite": false
+    }
+
+}
